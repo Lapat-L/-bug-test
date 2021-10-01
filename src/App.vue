@@ -14,6 +14,8 @@
       <router-link to='/'>Log in </router-link> 
       <router-link to='/register'>Register </router-link> 
       <router-link to='/logout'>Log out </router-link> 
+      <router-link to='/ta'>ta </router-link> |
+      <router-link to='/re'>re</router-link>
     </div>
     <router-view/>
   </div>

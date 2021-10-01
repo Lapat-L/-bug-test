@@ -20,10 +20,22 @@ import XQ from '../views/qPage/XQuestion'
 import Q from '../views/Question'
 import T from '../views/Table'
 import h from '../views/History'
+import ta from '../views/TestAdd'
+import re from '../views/TestRe'
 
 Vue.use(VueRouter)
 
 const routes = [
+  {
+    path: '/re',
+    name: 're',
+    component: re
+  },
+  {
+    path: '/ta',
+    name: 'ta',
+    component: ta
+  },
   {
     path: '/hhhh',
     name: 'h',
